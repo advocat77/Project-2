@@ -4,7 +4,40 @@
    box-sizing: border-box;
 }
 
+/* body {
+   margin: 0;
+} */
+
 .wrapper {
    width: 1140px;
+   margin: 0 auto;
+   outline: 1px solid red;
 }
+
+.header {
+   background: #222222;
+   /* height: 75px; */
+   padding: 18px 0 19px;
+   color: seashell;
+}
+
+.header-wrap {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.offer {
+   background: #F1E4E6;
+   height: 765px;
+}
+
+/* .feature-wrap{
+   
+} */
+
+.footer {
+   background: #222224;
+}
+
 
