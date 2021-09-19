@@ -32,6 +32,10 @@
    height: 765px;
 }
 
+.offer-wrap {
+   display: flex;
+}
+
 /* .feature-wrap{
    
 } */
