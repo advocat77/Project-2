@@ -27,6 +27,25 @@
    align-items: center;
 }
 
+.header-left {
+   display: flex;
+   align-items: center;
+}
+
+.logo {
+   margin-right: 41px;
+}
+
+.header-right {
+   display: flex;
+   margin-left: 400px;
+   align-items: center;
+}
+
+.header-right-contact {
+   margin: 0 33px;
+}
+
 .offer {
    background: #F1E4E6;
    height: 765px;
