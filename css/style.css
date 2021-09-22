@@ -33,7 +33,14 @@
 }
 
 .logo {
+   text-decoration: none;
+   color: transparent;
    margin-right: 41px;
+}
+
+.search-button, .header-menu-button, .header-right-button {
+   background-color:transparent;
+   border: none; 
 }
 
 .header-right {
