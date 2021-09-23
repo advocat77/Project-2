@@ -4,9 +4,9 @@
    box-sizing: border-box;
 }
 
-/* body {
-   margin: 0;
-} */
+body {
+   font-family: 'Lato', sans-serif;
+}
 
 .wrapper {
    width: 1140px;
@@ -38,7 +38,7 @@
    margin-right: 41px;
 }
 
-.search-button, .header-menu-button, .header-right-button {
+.search-button, .header-menu-button {
    background-color:transparent;
    border: none; 
 }
@@ -53,53 +53,47 @@
    margin: 0 33px;
 }
 
+.header-right-basket, .header-right-contact {
+   text-decoration: none;
+   color: transparent;
+}
+
 .offer {
    background: #F1E4E6;
-   height: 765px;
 }
 
 .offer-wrap {
    display: flex;
-}
-
-.offer-img {
-   margin-left: -227px;
-}
-
-.offer-right {
-   width: 100%;
-   display: flex;
    align-items: center;
-   /* padding-left: 63px; */
-   justify-content: left;
+   height: 765px;
+   background-image: url(../img/Layer_57-removebg-preview1.png);
+   background-repeat: no-repeat;
+   background-position-x: -226px;
+   background-position-y: bottom;
+   justify-content: flex-end;
 }
 
-.offer-text {
+.offer-title {
+   font-weight: 900;
+   font-size: 48px;
+   line-height: 40px;
+   color: #222222;
    border-left: 12px solid #F16D7F;
-   display: flex;
-   flex-direction: column;
-   margin-left: 63px;
    padding-left: 16px;
-   font-family: 'Lato', sans-serif;
-   font-style: normal;
+   margin-right: 90px;
+}
+
+.offer-title-small {
+   font-weight: bold;
+   font-size: 32px;
+   line-height: 38px;
    color: #222222;
 }
 
-.offer-text-flex-1 {
-   font-weight: 900;
-   font-size: 48px;
-   line-height: 57px;
-}
-
-.offer-text-flex-2 {
-   font-weight: 700;
-   line-height: 38px;
-   font-size: 32px;
-}
-
-.offer-span {
+.offer-title-pink {
    color: #F16D7F;
 }
+
 
 .categories {
    margin-top: 65px;
@@ -133,7 +127,6 @@
 }
 
 .categories-item-top-text {
-   font-family: 'Lato', sans-serif;
    font-size: 16px;
    font-style: normal;
    font-weight: 400;
@@ -144,7 +137,6 @@
 }
 
 .categories-item-bottom-text{
-   font-family: 'Lato', sans-serif;
    text-align: center;
    color: #F16D7F;
    font-style: normal;
@@ -170,7 +162,6 @@
 
 .feature-heading {
    width: 100%;
-   font-family: 'Lato', sans-serif;
    font-size: 30px;
    font-style: normal;
    font-weight: 400;
@@ -183,7 +174,6 @@
 
 .feature-heading-paragraph {
    width: 100%;
-   font-family: 'Lato', sans-serif;
    font-style: normal;
    font-weight: 400;
    letter-spacing: 0em;
