@@ -102,6 +102,10 @@ body {
    color: #F16D7F;
 }
 
+.page-title {
+   background-color:#F16D7F;
+}
+
 .categories {
    padding-top: 65px;
    padding-bottom: 85px;
@@ -227,7 +231,7 @@ body {
 }
 
 .button {
-   margin-left: ;
+   display: inline-block;
    align-self: center;
    padding: 10px 20px;
    border: 1px solid #F16D7F;
@@ -241,6 +245,121 @@ body {
    line-height: 19px;
    letter-spacing: 0em;
    text-align: left;
+   margin-bottom: 95px;
+}
+
+.advantages {
+   background: #222222;
+   display: flex;
+   height: 341px;
+}
+
+.advantages-wrap {
+   display: flex;
+   align-items: center;
+}
+
+.advantage-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.adv-img {
+   width: 45px;
+}
+
+.adv-heading{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 19.96px;
+   line-height: 24px;
+   color: #FBFBFB;
+   margin-top: 16px;
+   margin-bottom: 19px;
+}
+
+.adv-text {
+   font-style: normal;
+   font-weight: 300;
+   font-size: 13.972px;
+   line-height: 17px;
+   text-align: center;
+   color: #FBFBFB;
+}
+
+.feedback-wrap {
+   background-size: cover;
+   background-color: #F4F4F4B2;
+   background-image: url(../img/feedback-back.svg);
+   background-position: left bottom;
+   background-repeat: no-repeat;
+   min-height: 448px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
+
+.subscribe-info {
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   height: 50%;
+}
+
+.subscribe-image {
+   width: 30px;
+}
+
+.subscribe-text {
+   margin-top: 30px;
+   width: 320px;
+   text-align: center;
+}
+
+.subscribe {
+   display: flex;
+}
+
+.subscribe-field {
+   padding: 20px;
+   width: 255px;
+   border-radius: 27px 0 0 27px;
+   background-color: #E1E1E1;
+   border: none;
+}
+
+.subscribe-field::placeholder {
+   font-size: 14px;
+   line-height: 17px;
+   display: flex;
+   align-items: center;
+   color: #222224;
+   opacity: 0.67;
+}
+
+.subscribe-field:hover {
+   background-color: #E9E9E9;
+}
+
+.subscribe-button {
+   padding: 20px;
+   border-radius: 0 27px 27px 0;
+   border: none;
+   background: #E05C6E;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 17px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.subscribe-button:hover {
+   background: #aa2b3c
 }
 
 .feature-photo {
