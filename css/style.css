@@ -19,7 +19,7 @@ body {
 .wrapper {
    width: 1140px;
    margin: 0 auto;
-   /* outline: 1px solid red; */
+   outline: 1px solid red;
 }
 
 .header {
@@ -298,14 +298,13 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   width: 100%;
 }
 
-.subscribe-info {
+.subscribe-left {
    margin: 0 auto;
    display: flex;
    flex-direction: column;
-   height: 50%;
+   align-items: center;
 }
 
 .subscribe-img {
@@ -362,13 +361,15 @@ body {
    background: #aa2b3c
 }
 
-.feature-photo {
-   width: 100%;
+.subscribe-right {
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .footer {
    background: #222224;
-   /* height: 75px; */
    padding: 30px 0;
 }
 
@@ -394,6 +395,6 @@ body {
 }
 
 .fa-instagram:hover {
-   background: #FFFFF;
+   background: #FFFFFF;
 }
 
