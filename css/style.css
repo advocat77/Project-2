@@ -308,8 +308,8 @@ body {
    height: 50%;
 }
 
-.subscribe-image {
-   width: 30px;
+.subscribe-img {
+   width: 150px;
 }
 
 .subscribe-text {
@@ -320,7 +320,7 @@ body {
 
 .subscribe {
    display: flex;
-}
+}  
 
 .subscribe-field {
    padding: 20px;
@@ -368,6 +368,32 @@ body {
 
 .footer {
    background: #222224;
+   /* height: 75px; */
+   padding: 30px 0;
 }
 
+.footer-wrap {
+   display: flex;
+   justify-content: space-between;
+}
+
+.content {
+   font-size: 16px;
+   line-height: 19px;
+   color: #FBFBFB;
+}
+
+.fab {
+   font-size: 32px;
+   margin: 0 7px;
+}
+
+.fa-instagram {
+   background-color: #F16D7F;
+   color: #F1E4E6;
+}
+
+.fa-instagram:hover {
+   background: #FFFFF;
+}
 
