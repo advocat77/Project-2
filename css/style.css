@@ -105,12 +105,6 @@ body {
    color: #F16D7F;
 }
 
-/* catalog-offer */
-
-.catalog-offer {
-   /* color: #F16D7F */
-}
-
 .catalog-wrap {
    height: 148px;
    display: flex;
@@ -298,10 +292,6 @@ body {
    height: 19px;
 }
 
-/* .triple {
-   display: block;
-} */
-
 .advantages {
    background: #222222;
    display: flex;
@@ -342,13 +332,19 @@ body {
    color: #FBFBFB;
 }
 
-.feedback-wrap {
+.feedback {
    background-size: cover;
    background-color: #F4F4F4B2;
    background-image: url(../img/feedback-back.svg);
    background-position: left bottom;
    background-repeat: no-repeat;
    min-height: 448px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.feedback-wrap {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -371,8 +367,32 @@ body {
    text-align: center;
 }
 
+.feedback-text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 15px 100px 10px;
+}
+
+.sub-right-heading {
+   font-family: 'Lato', sans-serif;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 29px;
+   letter-spacing: 0em;
+}
+
+.sub-right-text {
+   font-family: 'Lato', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 22px;
+   letter-spacing: 0em;
+}
+
 .subscribe {
    display: flex;
+   margin-top: 27px;
 }  
 
 .subscribe-field {
