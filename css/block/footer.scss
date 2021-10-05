@@ -1,0 +1,29 @@
+.footer {
+   background: #222224;
+   padding: 30px;
+}
+
+.footer-wrap {
+   display: flex;
+   justify-content: space-between;
+}
+
+.content {
+   font-size: 16px;
+   line-height: 19px;
+   color: #FBFBFB;
+}
+
+.fab {
+   font-size: 32px;
+   margin: 0 7px;
+}
+
+.fa-instagram {
+   background-color: #F16D7F;
+   color: #F1E4E6;
+}
+
+.fa-instagram:hover {
+   background: #FFFFFF;
+}

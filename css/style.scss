@@ -24,48 +24,7 @@ body {
 
 /* header */
 
-.header {
-   background: #222222;
-   padding: 18px 0 19px;
-   color: seashell;
-}
-
-.header-wrap {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-.header-left {
-   display: flex;
-   align-items: center;
-}
-
-.logo {
-   text-decoration: none;
-   color: transparent;
-   margin-right: 41px;
-}
-
-.search-button, .header-menu-button {
-   background-color:transparent;
-   border: none; 
-}
-
-.header-right {
-   display: flex;
-   margin-left: 400px;
-   align-items: center;
-}
-
-.header-right-contact {
-   margin: 0 33px;
-}
-
-.header-right-basket, .header-right-contact {
-   text-decoration: none;
-   color: transparent;
-}
+@import "block/_header.scss";
 
 /* offer */
 
@@ -439,33 +398,5 @@ body {
    align-items: center;
 }
 
-.footer {
-   background: #222224;
-   padding: 30px;
-}
-
-.footer-wrap {
-   display: flex;
-   justify-content: space-between;
-}
-
-.content {
-   font-size: 16px;
-   line-height: 19px;
-   color: #FBFBFB;
-}
-
-.fab {
-   font-size: 32px;
-   margin: 0 7px;
-}
-
-.fa-instagram {
-   background-color: #F16D7F;
-   color: #F1E4E6;
-}
-
-.fa-instagram:hover {
-   background: #FFFFFF;
-}
-
+// footer
+@import "block/footer.scss";
