@@ -1,0 +1,45 @@
+.sort {
+   display: flex;
+   align-items: center;
+}
+
+.filter {
+   display: flex;
+   width: 33%;
+   padding: 50px 0 64px 20px;
+}
+
+.filter-text {
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   color: #000000;
+   text-transform: uppercase;
+   margin-right: 17px;
+}
+
+.sort-box {
+   display: flex;
+   width: 33%;
+   padding: 50px 0 64px 20px;
+}
+
+.sort-text {
+   font-size: 14px;
+   line-height: 17px;
+   color: #6F6E6E;
+   text-transform: uppercase;
+   margin-right: 10px;
+}
+
+.sort-button {
+   margin-right: 28px;
+   background-color: transparent;
+   border: none;
+}
+
+.sort-button:hover {
+   background-color: pink;
+}
+
+

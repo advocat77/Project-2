@@ -189,6 +189,58 @@ body {
   background-color: #F16D7F;
 }
 
+.sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33%;
+  padding: 50px 0 64px 20px;
+}
+
+.filter-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-right: 17px;
+}
+
+.sort-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33%;
+  padding: 50px 0 64px 20px;
+}
+
+.sort-text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.sort-button {
+  margin-right: 28px;
+  background-color: transparent;
+  border: none;
+}
+
+.sort-button:hover {
+  background-color: pink;
+}
+
 .categories {
   padding-top: 65px;
   padding-bottom: 85px;
@@ -430,8 +482,9 @@ body {
 }
 
 .feedback {
+  background-color: #eee;
   background-size: cover;
-  background-image: url(../img/feedback-back.svg);
+  background-image: url(../img/photosubscribe.jpg);
   background-position: left bottom;
   background-repeat: no-repeat;
   min-height: 448px;
