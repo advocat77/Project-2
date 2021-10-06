@@ -215,6 +215,11 @@ body {
   margin-right: 17px;
 }
 
+.filter-sort {
+  background-color: transparent;
+  border: none;
+}
+
 .sort-box {
   display: -webkit-box;
   display: -ms-flexbox;
