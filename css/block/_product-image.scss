@@ -1,14 +1,10 @@
 .product-banner {
    background: #F7F7F7;
+   margin: 0 auto;
 }
 
 .product-image {
-   display: flex;
-   align-items: center;
    height: 777px;
    background-image: url(../img/product-image.png);
    background-repeat: no-repeat;
-   background-position-x: 0px;
-   background-position-y: bottom;
-   justify-content: flex-end;
 }

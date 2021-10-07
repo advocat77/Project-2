@@ -1,3 +1,5 @@
+@import "_vars.scss";
+
 * {
    margin: 0;
    padding: 0;
@@ -17,7 +19,7 @@ body {
 }
 
 .wrapper {
-   width: 1140px;
+   width: $wrap;
    margin: 0 auto;
    outline: 1px solid red;
 }
@@ -33,8 +35,9 @@ body {
 }
 
 .offer-wrap {
-   display: flex;
-   align-items: center;
+   // display: flex;
+   // align-items: center;
+   @include flex();
    height: 765px;
    background-image: url(../img/Layer_57-removebg-preview1.png);
    background-repeat: no-repeat;
@@ -47,8 +50,8 @@ body {
    font-weight: 900;
    font-size: 48px;
    line-height: 40px;
-   color: #222222;
-   border-left: 12px solid #F16D7F;
+   color: $main-black;
+   border-left: 12px solid $main-color;
    padding-left: 16px;
    margin-right: 90px;
 }
@@ -57,17 +60,16 @@ body {
    font-weight: bold;
    font-size: 32px;
    line-height: 38px;
-   color: #222222;
+   color: $main-black;
 }
 
 .offer-title-pink {
-   color: #F16D7F;
+   color: $main-color;
 }
 
 .catalog-wrap {
    height: 148px;
-   display: flex;
-   align-items: center;
+   @include flex();
    justify-content: space-between;
    background: #F8F3F4;
    padding: 65px 0px;
@@ -76,28 +78,27 @@ body {
 .catalog-offer-heading {
    font-size: 24px;
    line-height: 29px;
-   color: #F16D7F;
+   color: $main-color;
 }
 
 .breadcrumb {
    list-style-type: none;
-   display: flex;
-   align-items: center;
+   @include flex();
 }
 
 .bread-menu {
    text-decoration: none;
-   color: #222222;  
+   color: $main-black;  
 }
 
 .bread-menu-1 {
-   color: #F16D7F;
+   color: $main-color;
 }
 
 @import "block/_product-image.scss";
 
 .page-title {
-   background-color:#F16D7F;
+   background-color: $main-color;
 }
 
 @import "block/_sort.scss";
@@ -116,14 +117,13 @@ body {
 }
 
 .categories-item {
+   @include flex();
    position: relative;
-   display: flex;
    flex-direction: column;
    justify-content: center;
    background-color: #C4C4C4;
    width: 360px; 
    height: 260px;
-   text-align: center;
 }
 
 .categories-text {
@@ -145,7 +145,7 @@ body {
 
 .categories-name{
    text-align: center;
-   color: #F16D7F;
+   color: $main-color;
    font-style: normal;
    letter-spacing: 0em;
    font-size: 24px;
@@ -186,7 +186,7 @@ body {
    letter-spacing: 0em;
    text-align: center;
    margin-bottom: 6px;
-   color: #222222;
+   color: $main-black;
 }
 
 .feature-heading-paragraph {
@@ -220,7 +220,7 @@ body {
 }
 
 .feature-price {
-   color: #F16D7F;
+   color: $main-color;
 }
 
 .center {
@@ -232,9 +232,9 @@ body {
    display: inline-block;
    align-self: center;
    padding: 10px 20px;
-   border: 1px solid #F16D7F;
+   border: 1px solid $main-color;
    text-decoration: none;
-   color: #F16D7F;
+   color: $main-color;
    background-color: #fff;
    margin-top: 40px;
    font-size: 16px;
@@ -248,7 +248,7 @@ body {
 
 .button:hover {
    color: #fff;
-   background-color: #F16D7F;
+   background-color: $main-color;
 }
 
 .pagination {
@@ -262,20 +262,18 @@ body {
 }
 
 .advantages {
-   background: #222222;
+   background: $main-black;
    display: flex;
    height: 341px;
 }
 
 .advantages-wrap {
-   display: flex;
-   align-items: center;
+   @include flex();
 }
 
 .advantage-item {
-   display: flex;
+   @include flex();
    flex-direction: column;
-   align-items: center;
 }
 
 .adv-img {
@@ -320,10 +318,8 @@ body {
 }
 
 .subscribe-left {
-   /* margin-right: 327px; */
-   display: flex;
+   @include flex();
    flex-direction: column;
-   align-items: center;
 }
 
 .subscribe-img {
@@ -337,9 +333,8 @@ body {
 }
 
 .feedback-text {
-   display: flex;
+   @include flex();
    flex-direction: column;
-   align-items: center;
    padding: 15px 100px 10px;
 }
 
@@ -375,8 +370,7 @@ body {
 .subscribe-field::placeholder {
    font-size: 14px;
    line-height: 17px;
-   display: flex;
-   align-items: center;
+   @include flex();
    color: #222224;
    opacity: 0.67;
 }
@@ -394,8 +388,7 @@ body {
    font-weight: normal;
    font-size: 14px;
    line-height: 17px;
-   display: flex;
-   align-items: center;
+   @include flex();
    text-align: center;
    color: #FFFFFF;
 }
@@ -405,9 +398,8 @@ body {
 }
 
 .subscribe-right {
-   display: flex;
+   @include flex();
    flex-direction: column;
-   align-items: center;
 }
 
 // // footer
