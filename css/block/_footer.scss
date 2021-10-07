@@ -1,0 +1,39 @@
+.footer {
+   background: #222224;
+   padding: 30px;
+   height: 79px;
+}
+
+.footer-wrap {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.social-btn:hover {
+   background: #F16D7F;
+}
+
+.social-svg:hover {
+   fill: #FBFBFB;
+}
+
+.social {
+   margin-right: 32px; 
+}
+
+.social-svg {
+   width: 10px;
+}
+
+.social-btn {
+   margin: 0 7px;
+}
+
+.content {
+   font-size: 16px;
+   line-height: 40px;
+   color: #FBFBFB;
+   margin-left: 32px;
+}
+

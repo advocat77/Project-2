@@ -421,6 +421,11 @@ body {
   margin-bottom: 95px;
 }
 
+.button:hover {
+  color: #fff;
+  background-color: #F16D7F;
+}
+
 .pagination {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -683,22 +688,31 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-btn:hover {
+  background: #F16D7F;
+}
+
+.social-svg:hover {
+  fill: #FBFBFB;
+}
+
+.social {
+  margin-right: 32px;
+}
+
+.social-btn {
+  margin: 0 7px;
 }
 
 .content {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 40px;
   color: #FBFBFB;
-}
-
-.fab {
-  font-size: 32px;
-  margin: 0 7px;
-  background-color: #F1E4E6;
-  color: black;
-}
-
-.fab:hover {
-  color: #F16D7F;
+  margin-left: 32px;
 }
 /*# sourceMappingURL=style.css.map */
