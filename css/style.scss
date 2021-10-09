@@ -71,9 +71,14 @@ body {
    height: 148px;
    @include flex();
    justify-content: space-between;
-   background: #F8F3F4;
+   // background: #F8F3F4;
    padding: 65px 0px;
 }
+
+.catalog-offer {
+   background-color: #F8F3F4;
+}
+
 
 .catalog-offer-heading {
    font-size: 24px;
