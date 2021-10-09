@@ -11,9 +11,11 @@
 }
 
 .product-block {
-   position: relative;
+   // position: relative;
    display: flex;
    flex-direction: column;
+   align-items: center;
+   padding: 65px 0;
 }
 
 .block-text {
@@ -25,6 +27,7 @@
    font-size: 14px;
    line-height: 17px;
    text-align: center;
+   margin-bottom: 12px;
 }
 
 // .block-name {
@@ -34,11 +37,17 @@
 // }
 
 .block-border {
-   position: absolute;
+   display: block;
    height: 3px;
    width: 63px;
    color: $main-color;
 }
+
+// .block-border::after {
+//    color: $main-color;
+//    width: 63px;
+//    height: 3px;
+// }
 
 .block-heading {
    text-align: center;
@@ -46,4 +55,23 @@
    font-size: 18px;
    line-height: 22px;
    color: #4D4D4D;
+}
+
+.block-heading2 {
+   width: 555px;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 17px;
+   align-self: center;
+   color: #5E5E5E;
+   margin-top: 48px;
+}
+
+.block-price {
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 29px;
+   color: #EF5B70;
+   margin-top: 32px;
+   margin-bottom: 65px;
 }
