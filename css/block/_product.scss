@@ -30,24 +30,10 @@
    margin-bottom: 12px;
 }
 
-// .block-name {
-//    position: relative;
-//    display: flex;
-//    flex-direction: column;
-// }
-
-.block-border {
-   display: block;
-   height: 3px;
+.hr1 {
    width: 63px;
-   color: $main-color;
+   height: 3px;
 }
-
-// .block-border::after {
-//    color: $main-color;
-//    width: 63px;
-//    height: 3px;
-// }
 
 .block-heading {
    text-align: center;
@@ -55,6 +41,7 @@
    font-size: 18px;
    line-height: 22px;
    color: #4D4D4D;
+   margin-top: 12px;
 }
 
 .block-heading2 {

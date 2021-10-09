@@ -205,11 +205,9 @@ body {
   margin-bottom: 12px;
 }
 
-.block-border {
-  display: block;
-  height: 3px;
+.hr1 {
   width: 63px;
-  color: #F16D7F;
+  height: 3px;
 }
 
 .block-heading {
@@ -218,6 +216,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #4D4D4D;
+  margin-top: 12px;
 }
 
 .block-heading2 {
