@@ -79,7 +79,6 @@ body {
    background-color: #F8F3F4;
 }
 
-
 .catalog-offer-heading {
    font-size: 24px;
    line-height: 29px;
@@ -229,7 +228,6 @@ body {
 }
 
 .center {
-   display: flex;
    margin: 0 auto;
 }
 
@@ -258,12 +256,35 @@ body {
 
 .pagination {
    display: flex;
-   height: 43px;
    margin: 48px auto 96px;
+   border: 1px solid #EBEBEB;
+}
+
+.pag-block {
+   display: flex;
+   justify-content: space-between;
+   width: 202px;
 }
 
 .pagina {
-   height: 19px;
+   background-color: transparent;
+   border: none;
+   font-family: Lato, sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 19px;
+
+      &:hover {
+         color: $main-color;
+      }
+}
+
+.pagina-btn {
+   background-color: transparent;
+   &:hover .arrow {
+   fill: $main-color;
+   }
+
 }
 
 .advantages {
