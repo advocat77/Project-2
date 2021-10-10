@@ -1,9 +1,34 @@
-.product-banner {
+.slider {
    background: #F7F7F7;
    margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+
+   &-btn {
+      background-color: rgba(42, 42, 42, 0.15);
+      color: #fff;
+      padding: 12px;
+      border: 1px solid #000;
+      position: absolute;
+
+         &:hover .arrow {
+            fill: $main-color;
+         }
+
+   &-left {
+      left: 5px;
+   }
+
+   &-right {
+      right: 5px;
+   }
+
+   }
 }
 
-.product-image {
+.slider-img {
    height: 777px;
    background-image: url(../img/product-image.png);
    background-repeat: no-repeat;

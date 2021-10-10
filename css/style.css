@@ -167,12 +167,42 @@ body {
   color: #F16D7F;
 }
 
-.product-banner {
+.slider {
   background: #F7F7F7;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
 }
 
-.product-image {
+.slider-btn {
+  background-color: rgba(42, 42, 42, 0.15);
+  color: #fff;
+  padding: 12px;
+  border: 1px solid #000;
+  position: absolute;
+}
+
+.slider-btn:hover .arrow {
+  fill: #F16D7F;
+}
+
+.slider-btn-left {
+  left: 5px;
+}
+
+.slider-btn-right {
+  right: 5px;
+}
+
+.slider-img {
   height: 777px;
   background-image: url(../img/product-image.png);
   background-repeat: no-repeat;
