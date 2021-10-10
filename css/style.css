@@ -270,6 +270,45 @@ body {
   margin-bottom: 65px;
 }
 
+.sort-box-product {
+  margin: 65px auto 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button-basket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #F16D7F;
+  padding: 14px 24px;
+}
+
+.button-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #F16D7F;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  padding-right: 24px;
+}
+
+.basket-product {
+  margin-right: 23px;
+}
+
 .page-title {
   background-color: #F16D7F;
 }
