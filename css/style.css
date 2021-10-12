@@ -344,10 +344,6 @@ body {
   border: none;
 }
 
-.details {
-  bottom: 1px solid green;
-}
-
 .sort-box {
   display: -webkit-box;
   display: -ms-flexbox;
