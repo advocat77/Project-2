@@ -1,0 +1,8 @@
+$main-color: #F16D7F;
+$main-black: #222222;
+$wrap: 1140px;
+
+@mixin flex {
+   display: flex;
+   align-items: center;
+}
